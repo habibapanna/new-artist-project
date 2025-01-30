@@ -22,7 +22,7 @@ const Exhibitions = () => {
           <motion.img
             src="https://i.postimg.cc/HWQ05ZcN/colorful-2468874-1280.jpg"
             alt="Exhibition Artwork"
-            className="w-full bg-gray-200 p-3 border-8 border-gray-800"
+            className="w-full bg-gray-200 p-4 border-8 border-gray-800"
             whileHover={{ y: -10 }} // Hover animation to move the image up
                 transition={{ type: "spring", stiffness: 200 }} 
           />
