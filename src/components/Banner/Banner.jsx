@@ -13,7 +13,7 @@ const Banner = () => {
       <div className="hero-content flex-col lg:flex-row-reverse gap-8 lg:gap-16">
         {/* Framer Motion for hover effect */}
         <motion.img
-          className="w-full bg-gray-200 border-8 border-gray-800 p-5 lg:w-1/2 shadow-lg"
+          className="w-full lg:h-[600px] bg-gray-200 border-8 border-gray-900 p-5 lg:w-1/2"
           src="https://i.postimg.cc/R0RD1NpK/steve-johnson-e5-Ldl-AMpk-Ew-unsplash.jpg"
           whileHover={{ y: -10 }} // Move image up by 10px on hover
           transition={{ type: "spring", stiffness: 200 }}
@@ -21,7 +21,7 @@ const Banner = () => {
         />
         <div className="text-center lg:text-left max-w-2xl">
           <h1 className="text-2xl font-bold mb-3">All My Artworks Are</h1>
-          <h1 className="text-3xl lg:text-7xl text-amber-500 font-bold">
+          <h1 className="text-3xl lg:text-7xl text-amber-500 font-semibold">
             Inspired by Nature
           </h1>
           <p className="py-6 text-sm lg:text-base">
@@ -32,7 +32,7 @@ const Banner = () => {
           </p>
           <button
             onClick={handleSeeGalleryClick}
-            className="border-2 hover:border-amber-500 border-white py-2 px-8 font-semibold hover:bg-amber-500"
+            className="border-2 mt-5 hover:border-amber-500 border-white py-3 px-8 font-semibold hover:bg-amber-500"
           >
             SEE GALLERY
           </button>

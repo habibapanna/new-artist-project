@@ -13,16 +13,14 @@ const RecentArtworks = () => {
       <div className="flex flex-col gap-16 md:flex-row justify-between items-center">
         {/* Left Section: Image and Description */}
         <div className="flex flex-col lg:gap-10 md:w-1/2">
-          <div className="text-center md:text-left">
-            <div className=" w-full h-96 md:h-auto shadow-2xl">
+          <div className="text-center lg:text-left">
               <motion.img
-                className="w-full object-cover shadow-2xl bg-gray-200 p-4 border-8 border-gray-800"
+                className="w-full h-[500px] object-cover shadow-2xl bg-gray-200 p-4 border-8 border-gray-800"
                 src="https://i.postimg.cc/k5VzXFpc/pexels-didsss-3041254.jpg"
                 alt="Abstract Acrylic"
                 whileHover={{ y: -10 }} // Hover animation to move the image up
                 transition={{ type: "spring", stiffness: 200 }}
               />
-            </div>
             <h3 className="mt-10 text-amber-500 text-2xl font-semibold">Abstract Artwork</h3>
             <p className="text-sm mt-2">
               Duconvallis massa ultricies. Nulla viverra rutrum dolor, at varius lectus ultrices id. Mauris ipsum eros, pulvinar eu elit luctus.
@@ -39,7 +37,7 @@ const RecentArtworks = () => {
           </p>
           <button
             onClick={handleSeeGalleryClick}
-            className="mt-8 px-8 py-2 border-2 mb-10 font-semibold hover:border-amber-500 
+            className="mt-8 px-8 py-3 border-2 mb-10 font-semibold hover:border-amber-500 
            hover:text-white hover:bg-amber-500 transition-colors"
           >
             SEE GALLERY

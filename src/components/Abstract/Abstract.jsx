@@ -25,7 +25,7 @@ const Abstract = () => {
               </p>
               <button
                 onClick={handleSeeGalleryClick}
-                className="px-8 py-2 border-2 font-semibold hover:bg-amber-500 hover:text-white transition-colors"
+                className="px-8 py-3 border-2 font-semibold hover:bg-amber-500 hover:text-white transition-colors"
               >
                 BUY NOW
               </button>
