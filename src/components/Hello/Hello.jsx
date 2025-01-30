@@ -20,7 +20,7 @@ const Hello = () => {
           {/* Heading and Description */}
           <div className='items-center'>
             <h1 className="text-amber-500 text-7xl font-semibold mb-4">Say "Hello"</h1>
-            <p className="text-gray-600">
+            <p className="">
               Consectetur adipisicing elit, send do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ullamco.
             </p>
           </div>
