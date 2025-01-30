@@ -9,7 +9,7 @@ const Main = () => {
     const [themeColor, setThemeColor] = useState("amber-500");
 
     return (
-        <div className={`flex flex-col min-h-screen max-w-7xl mx-auto text-${themeColor}`}>
+        <div className={`flex flex-col min-h-screen mx-auto text-${themeColor}`}>
             <Navbar></Navbar>
             <ColorPalette setThemeColor={setThemeColor} />
             <main className="flex-grow">
