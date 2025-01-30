@@ -30,10 +30,10 @@ const MyStory = () => {
                 My Story
               </p>
   
-              <p className="mt-4 text-lg text-black">
+              <p className="mt-4 text-black">
                 Imperdiet lacus sit amet scelerisque commodo. Praesent nec lectus ante. Nulla ultrices ligula vitae pellentesque ullamcorper. Quisque scelerisque varius mattis. Integer ac libero congue, fermentum odio vel, posuere est. Morbi neque elit, pulvinar eu velit non, maximus bibendum arcu. Ut sollicitudin ante sed aliquam lobortis. Curabitur gravida, ipsum ut malesuada congue, metus tellus ornare dui, eget interdum arcu nisi id elit.
               </p>
-              <button onClick={handleReadMoreClick} className="mt-6 text-amber-500 hover:underline">
+              <button onClick={handleReadMoreClick} className="mt-6 font-semibold text-amber-500 hover:underline">
                 Read More
               </button>
             </div>
