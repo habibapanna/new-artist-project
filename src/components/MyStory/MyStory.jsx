@@ -7,7 +7,8 @@ const MyStory = () => {
     };
   
     return (
-      <section
+        <div className="pt-12">
+                  <section
         className="bg-gray-900 text-white py-12"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("https://i.postimg.cc/Ss2djr5T/artist-3013762-1280.jpg")`,
@@ -48,6 +49,7 @@ const MyStory = () => {
           </div>
         </div>
       </section>
+        </div>
     );
   };
   

@@ -2,7 +2,8 @@ import { FaFacebook, FaInstagram, FaBehance, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-black py-12 px-10">
+    <div className="pt-12">
+        <footer className="bg-black py-12 px-10">
       <div className="container mx-auto px-6 lg:px-8 flex flex-col lg:flex-row justify-between items-center text-center mb-10">
         {/* Contact Information */}
         <div className="text-white mb-6">
@@ -43,6 +44,7 @@ const Footer = () => {
         <p>&copy; Copyright © 2025 Artist | Powered by Artist</p>
       </div>
     </footer>
+    </div>
   );
 };
 

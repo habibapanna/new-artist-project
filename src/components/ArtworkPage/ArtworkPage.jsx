@@ -1,12 +1,6 @@
-import Grace from "../../Grace/Grace";
-import MyStories from "../../MyStories/MyStories";
-import Popular from "../../Popular/Popular";
-
-
-const About = () => {
+const ArtworkPage = () => {
     return (
-        <div>
-            <div
+      <div
         className="w-full h-screen flex justify-center items-center lg:justify-start"
         style={{
           backgroundImage:
@@ -16,15 +10,11 @@ const About = () => {
         }}
       >
         <h1 className="text-amber-500 text-center lg:text-left lg:px-10 text-8xl font-semibold">
-        My Story.
+          My Artwork.
         </h1>
       </div>
-      <MyStories></MyStories>
-      <Grace></Grace>
-      <Popular></Popular>
-            
-        </div>
     );
-};
-
-export default About;
+  };
+  
+  export default ArtworkPage;
+  
