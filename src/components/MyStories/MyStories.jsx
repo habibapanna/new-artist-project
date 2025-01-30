@@ -10,7 +10,7 @@ const MyStories = () => {
       
       <div className="lg:w-1/2 flex flex-col"> 
         <div className=""> 
-          <h2 className="text-3xl font-semibold text-amber-500 mb-4 lg:text-7xl">Canvas is life.</h2>
+          <h2 className="text-3xl text-center lg:text-left font-semibold text-amber-500 mb-4 lg:text-7xl">Canvas is life.</h2>
         </div>
         <div className="">
           <p className="mb-8">

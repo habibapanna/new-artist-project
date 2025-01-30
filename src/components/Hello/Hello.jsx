@@ -19,7 +19,7 @@ const Hello = () => {
         <div className="flex flex-col gap-6 lg:w-1/2">
           {/* Heading and Description */}
           <div className='items-center'>
-            <h1 className="text-amber-500 text-7xl font-semibold mb-4">Say "Hello"</h1>
+            <h1 className="text-amber-500 text-4xl lg:text-7xl font-semibold mb-4">Say "Hello"</h1>
             <p className="">
               Consectetur adipisicing elit, send do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ullamco.
             </p>
@@ -29,7 +29,7 @@ const Hello = () => {
           <div className="flex flex-col lg:flex-row justify-between gap-6">
             {/* Get in Touch */}
             <div>
-              <h2 className="text-amber-500 text-3xl mb-4">Get in Touch</h2>
+              <h2 className="text-amber-500 text-2xl lg:text-3xl mb-4">Get in Touch</h2>
               <ul className="space-y-4">
                 <li className="flex items-center gap-3 text-black hover:text-amber-500 transition-colors">
                   <Mail className="text-xl" />
@@ -48,7 +48,7 @@ const Hello = () => {
 
             {/* Connect */}
             <div>
-              <h2 className="text-amber-500 text-3xl mb-4">Connect</h2>
+              <h2 className="text-amber-500 text-2xl lg:text-3xl mb-4">Connect</h2>
               <div className="flex space-x-4">
                 {[Facebook, Instagram, Twitter, Linkedin].map((Icon, index) => (
                   <a

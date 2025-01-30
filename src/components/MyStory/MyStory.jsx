@@ -26,7 +26,7 @@ const MyStory = () => {
               />
             </div>
             <div className="lg:w-3/5 py-12 lg:text-left text-center px-5">
-              <p className="text-amber-500 text-center text-2xl mt-10 font-semibold">
+              <p className="text-amber-500 text-center text-2xl lg:mt-10 font-semibold">
                 My Story
               </p>
   

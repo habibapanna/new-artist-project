@@ -15,7 +15,7 @@ const MoreE = () => {
                 transition={{ type: "spring", stiffness: 200 }}
               />
               <p className="mt-5">02 May 2018 - 10 May 2018</p>
-              <h3 className="text-2xl font-semibold text-amber-500">Vegas Art Exhibition</h3>
+              <h3 className="text-2xl font-semibold text-amber-500 mb-5">Vegas Art Exhibition</h3>
             </div>
 
             {/* Second item */}
@@ -27,7 +27,7 @@ const MoreE = () => {
                 transition={{ type: "spring", stiffness: 200 }}
               />
               <p className="mt-5">12 Apr 2018 - 20 Apr 2018</p>
-              <h3 className="text-2xl font-semibold text-amber-500">Lyon Mega Exhibition</h3>
+              <h3 className="text-2xl font-semibold text-amber-500 mb-5">Lyon Mega Exhibition</h3>
             </div>
 
             {/* Third item */}
@@ -39,7 +39,7 @@ const MoreE = () => {
                 transition={{ type: "spring", stiffness: 200 }}
               />
               <p className="mt-5">20 Feb 2018 - 01 Mar 2018</p>
-              <h3 className="text-2xl font-semibold text-amber-500">Paris Painting Exhibition</h3>
+              <h3 className="text-2xl mb-5 font-semibold text-amber-500">Paris Painting Exhibition</h3>
             </div>
           </div>
         </div>

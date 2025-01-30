@@ -29,7 +29,7 @@ const RecentArtworks = () => {
         </div>
 
         {/* Right Section: Recent Artworks */}
-        <div className="text-center flex flex-col gap-10 md:w-1/2 md:pl-12 mt-8 md:mt-0 md:text-left">
+        <div className="text-center flex flex-col gap-10 md:w-1/2 md:pl-12 lg:mt-8 md:text-left">
 <div>
 <h2 className="text-4xl text-amber-500 lg:text-7xl lg:text-left">Recent Artworks</h2>
           <p className="mt-8 text-lg lg:text-left">

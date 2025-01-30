@@ -13,7 +13,7 @@ const Contact = () => {
           backgroundPosition: "center",
         }}
       >
-        <h1 className="text-amber-500 text-center lg:text-left lg:px-10 text-8xl font-semibold">
+        <h1 className="text-amber-500 text-center lg:text-left lg:px-10 text-4xl lg:text-8xl font-semibold">
         Contact Me.
         </h1>
       </div>

@@ -15,7 +15,7 @@ const About = () => {
           backgroundPosition: "center",
         }}
       >
-        <h1 className="text-amber-500 text-center lg:text-left lg:px-10 text-8xl font-semibold">
+        <h1 className="text-amber-500 text-center lg:text-left lg:px-10 text-4xl lg:text-8xl font-semibold">
         My Story.
         </h1>
       </div>

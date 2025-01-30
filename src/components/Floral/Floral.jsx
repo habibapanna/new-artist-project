@@ -10,8 +10,8 @@ const Floral = () => {
       };
     
     return (
-        <div className="pt-12">
-        <section className="py-12 bg-white">
+        <div className="lg:pt-12">
+        <section className="lg:py-12 bg-white">
           <div className="container mx-auto px-6 lg:px-8">
             <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
               {/* Left Section - Text */}

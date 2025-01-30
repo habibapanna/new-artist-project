@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const Exhibitions = () => {
     return (
         <div className="pt-12">
-            <section className="py-12">
+            <section className="lg:py-12">
   <div className="container mx-auto px-6 lg:px-8"> 
     <div className="flex flex-col lg:flex-row items-start lg:items-center gap-12 lg:gap-20"> 
 
