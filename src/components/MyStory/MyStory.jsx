@@ -44,7 +44,7 @@ const MyStory = () => {
               <p>
                 “Donec non ex ultricies, luctus magna ac, auctor felis. Nam ornare, orci vel dapibus dapibus, orci justo lacinia dui, viverra felis neque at sapien.”
               </p>
-              <p className="mt-6 text-right text-xl">Grace Jones</p>
+              <p className="mt-10 text-right text-xl">-Grace Jones</p>
             </div>
           </div>
         </div>

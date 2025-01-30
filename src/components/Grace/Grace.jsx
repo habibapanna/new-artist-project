@@ -17,11 +17,11 @@ const Grace = () => {
               </div>
               <p className="text-4xl">I am</p>
               <h2 className="text-6xl font-semibold mt-8 text-amber-500">Grace Jones</h2>
-              <p className="mt-4 leading-relaxed">
-                Imperdiet lacus sit amet scelerisque commodo. Praesent nec lectus ante. Nulla ultrices ligula vitae pellentesque ullamcorper. Quisque scelerisque varius mattis. Integer ac libero congue, fermentum odio vel, posuere est. Morbi neque elit, pulvinar eu velit non, maximus bibendum arcu. Ut sollicitudin ante sed aliquam lobortis. Curabitur gravida, ipsum ut malesuada congue, metus tellus ornare dui, eget interdum arcu nisi id elit.
+              <p className="mt-6 leading-relaxed">
+                "Imperdiet lacus sit amet scelerisque commodo. Praesent nec lectus ante. Nulla ultrices ligula vitae pellentesque ullamcorper. Quisque scelerisque varius mattis. Integer ac libero congue, fermentum odio vel, posuere est. Morbi neque elit, pulvinar eu velit non, maximus bibendum arcu. Ut sollicitudin ante sed aliquam lobortis. Curabitur gravida, ipsum ut malesuada congue, metus tellus ornare dui, eget interdum arcu nisi id elit."
               </p>
               <p className="mt-12 text-right text-2xl">
-                grace jones
+                -grace jones
               </p>
             </div>
           </div>
